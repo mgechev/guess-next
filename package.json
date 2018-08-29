@@ -1,0 +1,19 @@
+{
+  "name": "guess-next",
+  "version": "0.0.0",
+  "description": "Experiment for integration of Guess.js with Next.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Minko Gechev <mgechev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "guess-webpack": "^0.1.4",
+    "next": "^6.1.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
