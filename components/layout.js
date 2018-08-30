@@ -6,7 +6,7 @@ import Head from 'next/head'
 
 const layout = ({ router, children, title = '🔮 Next.js + Guess.js' }) => {
   if (typeof window !== 'undefined') {
-    Object.keys(guess()).forEach(p => p.startsWith('/') ? router.prefetch(p) : router.prefetch(`/${p}`));
+    Object.keys(guess()).forEach(p => router.prefetch(p));
   }
 
   return (

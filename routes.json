@@ -1,7 +1,7 @@
 {
   "/": {
-    "contact": 80,
-    "about": 20
+    "/contact": 80,
+    "/about": 20
   },
   "/contact": {
     "/": 20,
