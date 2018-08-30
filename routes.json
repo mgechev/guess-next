@@ -5,11 +5,17 @@
   },
   "/contact": {
     "/": 20,
-    "/about": 80
+    "/about": 20,
+    "/media": 60
   },
   "/about": {
     "/": 80,
     "/contact": 20
+  },
+  "/media": {
+    "/": 33,
+    "/about": 33,
+    "/contact": 34
   }
 }
 
