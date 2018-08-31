@@ -1,21 +1,20 @@
 {
   "/": {
-    "/contact": 80,
+    "/example": 80,
     "/about": 20
   },
-  "/contact": {
+  "/example": {
     "/": 20,
-    "/about": 20,
-    "/media": 60
+    "/media": 0,
+    "/about": 80
   },
   "/about": {
-    "/": 80,
-    "/contact": 20
+    "/": 20,
+    "/media": 80
   },
   "/media": {
     "/": 33,
     "/about": 33,
-    "/contact": 34
+    "/example": 34
   }
 }
-

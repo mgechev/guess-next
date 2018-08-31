@@ -6,7 +6,10 @@ export default class Index extends React.Component {
     return (
       <Layout>
         <h1>Next.js + Guess.js 🔮</h1>
-        <p>Welcome, Next.js</p>
+        <p>
+          This page demonstrates how you can use Guess.js for
+          <br /> predictive prefetching with Next.js
+        </p>
       </Layout>
     );
   }
