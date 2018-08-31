@@ -22,11 +22,10 @@ export default () => (
           <span class="c1" /> <span class="c1">// its consumer.</span>
           <br />
           <span class="c1" /> <span class="nx">runtime</span>
-          <span class="o">:</span> <span class="p">{'{'}</span>
+          <span class="o">:</span> <span class="p">{'{ '}</span>
           <span class="nx">delegate</span>
           <span class="o">:</span> <span class="kc">true</span>
-          <span class="p">,</span>
-          <span class="p">},</span>
+          <span class="p"> },</span>
           <br />
           <span class="c1"> </span>
           <span class="c1">// Since Gatsby already has the required metadata for pre-fetching,</span>

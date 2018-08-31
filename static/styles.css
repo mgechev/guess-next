@@ -91,6 +91,7 @@ pre {
   box-shadow: inset 0 0 0 1px #e4ebf2;
   border-radius: 4px;
   overflow: auto;
+  line-height: 16px;
 }
 
 .highlight .hll {
