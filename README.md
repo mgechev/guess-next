@@ -42,7 +42,7 @@ import { guess } from 'guess-webpack/api';
 // ...
 
   if (typeof window !== 'undefined') {
-    Object.keys(guess()).sort(p => router.prefetch(p));
+    Object.keys(guess()).forEach(p => router.prefetch(p));
   }
 
 // ...
