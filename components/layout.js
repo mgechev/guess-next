@@ -17,14 +17,14 @@ const layout = ({ router, children, title = '🔮 Next.js + Guess.js' }) => {
         <title>{title}</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="icon" href="static/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/static/favicon.ico" type="image/x-icon" />
         <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet" />
-        <link rel="stylesheet" href="static/styles.css" />
+        <link rel="stylesheet" href="/static/styles.css" />
       </Head>
       <header>
         <nav>
           <span className="guess-logo">
-            <img src="static/guess.png" />
+            <img src="/static/guess.png" />
           </span>
           <Link href="/">
             <a>Home</a>
