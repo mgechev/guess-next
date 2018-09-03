@@ -6,7 +6,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "next build -o guess"
+    "export": "npm run build && next export -o guess"
   },
   "author": "Minko Gechev <mgechev@gmail.com>",
   "license": "MIT",
