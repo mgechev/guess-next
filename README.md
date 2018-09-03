@@ -14,7 +14,7 @@ npm run build && npm start
 
 ## Integration
 
-Guess.js works with Next.js with only two points of integration. All you need to do is add the `GuessPlugin` to `next.config.js` and introduce a snippet for prefetching the pages which are likely to be visited next.
+Guess.js (**0.1.5 and above**) works with Next.js with only two points of integration. All you need to do is add the `GuessPlugin` to `next.config.js` and introduce a snippet for prefetching the pages which are likely to be visited next.
 
 The following sections describe both points in details.
 
