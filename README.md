@@ -1,6 +1,16 @@
-# Guess.js + Next.js
+# 🔮 Guess.js + Next.js
 
 Demo application for using Guess.js with Next.js.
+
+## Usage
+
+Here's how you can try the demo:
+
+```bash
+git clone git@github.com:mgechev/guess-next
+cd guess-next && npm i
+npm run build && npm start
+```
 
 ## Integration
 
