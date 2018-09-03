@@ -54,13 +54,7 @@ const layout = ({ router, children, title = '🔮 Next.js + Guess.js' }) => {
       </ul>
       <div className="explanation">I used the statistics you already have to make this prediction.</div>
       <br />
-      <div
-        className="content"
-        onAnimationEnd={e => (e.target.style.opacity = 1)}
-        style={{ opacity: 0, animationDelay: 0.5 + predictions.length * 0.2 + 's' }}
-      >
-        {children}
-      </div>
+      <div className="content">{children}</div>
     </div>
   );
 };

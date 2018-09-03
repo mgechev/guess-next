@@ -18,10 +18,13 @@ html {
   padding: 0;
 }
 
-.predictions li,
-.content {
+.predictions li {
   animation: appear 0.4s;
   display: inline-block;
+}
+
+.predictions li,
+.content {
   margin-right: 10px;
   font-weight: bold;
 }
@@ -100,6 +103,8 @@ pre {
 .highlight {
   background: #ffffff;
   color: #4d4d4c;
+  max-width: 350px;
+  overflow-x: auto;
 }
 .highlight .c {
   color: #8e908c;
