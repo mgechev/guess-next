@@ -6,7 +6,7 @@ In this particular example, we combine Guess.js with Next.js to introduce predic
 
 Based on early benchmarks, this can improve the perceived page load performance with 20%.
 
-For more information on how to use Guess.js, take a look at the following pages:
+For more information on Guess.js, take a look at the following links:
 * [Google I/O announcement](https://www.youtube.com/watch?time_continue=2093&v=Mv-l3-tJgGk) by Addy Osmani
 * [Introducing Guess.js - a toolkit for enabling data-driven user-experiences on the Web](https://blog.mgechev.com/2018/05/09/introducing-guess-js-data-driven-user-experiences-web/)
 * [Using Guess.js with static sites](https://github.com/guess-js/guess/tree/master/experiments/guess-static-sites)
