@@ -5,7 +5,7 @@
 In this particular example, we combine Guess.js with Next.js to introduce predictive prefetching of JavaScript bundles. Based on user navigation patterns collected from Google Analytics or other source, Guess.js builds a machine-learning model to predict JavaScript that will be required in each subsequent page change.
 
 For more information on how to use Guess.js, take a look at the following pages:
-* [Google I/O announcement](https://www.youtube.com/watch?time_continue=2093&v=Mv-l3-tJgGk) by Addy Osmani.
+* [Google I/O announcement](https://www.youtube.com/watch?time_continue=2093&v=Mv-l3-tJgGk) by Addy Osmani
 * [Introducing Guess.js - a toolkit for enabling data-driven user-experiences on the Web](https://blog.mgechev.com/2018/05/09/introducing-guess-js-data-driven-user-experiences-web/)
 * [Using Guess.js with static sites](https://github.com/guess-js/guess/tree/master/experiments/guess-static-sites)
 * [Using Guess.js with Angular, React, and Gatsby](https://github.com/guess-js/guess/tree/master/packages/guess-webpack)
