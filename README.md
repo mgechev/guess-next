@@ -22,6 +22,8 @@ cd guess-next && npm i
 npm run build && npm start
 ```
 
+![Demo](/assets/guess-next-large.gif)
+
 ## Integration
 
 Guess.js (**0.1.5 and above**) works with Next.js with only two points of integration. All you need to do is add the `GuessPlugin` to `next.config.js` and introduce a snippet for prefetching the pages which are likely to be visited next.
