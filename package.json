@@ -11,7 +11,7 @@
   "author": "Minko Gechev <mgechev@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "guess-webpack": "^0.1.4",
+    "guess-webpack": "^0.1.5",
     "next": "^6.1.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
