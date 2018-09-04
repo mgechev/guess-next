@@ -2,7 +2,9 @@
 
 **[Guess.js](https://github.com/guess-js/guess) is a collection of libraries & tools for enabling data-driven user-experience on the web.**
 
-In this particular example, we combine Guess.js with Next.js to introduce predictive prefetching of JavaScript bundles. Based on user navigation patterns collected from Google Analytics or other source, Guess.js builds a machine-learning model to predict JavaScript that will be required in each subsequent page change.
+In this particular example, we combine Guess.js with Next.js to introduce predictive prefetching of JavaScript bundles. Based on user navigation patterns collected from Google Analytics or other source, Guess.js builds a machine-learning model to predict and prefetch JavaScript that will be required in each subsequent page change.
+
+Based on early benchmarks, this can improve the perceived page load performance with 20%.
 
 For more information on how to use Guess.js, take a look at the following pages:
 * [Google I/O announcement](https://www.youtube.com/watch?time_continue=2093&v=Mv-l3-tJgGk) by Addy Osmani
