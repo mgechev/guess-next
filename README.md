@@ -42,11 +42,7 @@ module.exports = {
     if (isServer) return config;
     config.plugins.push(
       new GuessPlugin({
-        GA: 'XXXXXX',
-        runtime: {
-          delegate: true,
-        },
-        routeProvider: false
+        GA: 'XXXXXX'
       })
     );
     return config;
@@ -59,8 +55,6 @@ We set the value of the `webpack` property of the object literal we set as value
 As a value of the `GA` property, we set a Google Analytics View ID. At build time, Guess.js will open a browser and try to get read-only access to extract a report and use it for the predictive analytics.
 
 *Note that Google Analytics is not the only provider you can use to provide the user navigation report that Guess.js uses. In this example application we provide the report from a JSON file.*
-
-As part of the object literal we also set `runtime.delegate: true` since we want to delegate the prefetching logic to Next.js. Finally, we set `routeProvider: false`. This hints Guess.js that it shouldn't parse the application and instead, it'd rely on Next.js for providing the routing information.
 
 ### Prefetch Pages
 
