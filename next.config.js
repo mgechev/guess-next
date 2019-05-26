@@ -5,8 +5,12 @@ module.exports = {
     if (isServer) return config;
     config.plugins.push(
       new GuessPlugin({
+        debug: true,
         reportProvider() {
           return Promise.resolve(JSON.parse(require('fs').readFileSync('./routes.json')));
+        },
+        runtime: {
+          delegate: true
         }
       })
     );
